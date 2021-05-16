@@ -24,12 +24,12 @@ public class Task1_3 {
         // ④ 20 を 6 で割った余りを代入する、変数 remi を作成しなさい。
            int remi = 20; remi %= 6;
         // ⑤下記の処理について、何をしているのかコメントを記入してください
-        // [ここへ記述] 有楽町を代入するStringクラスの配列townと線を代入するStringクラスの配列lineを作成
+        // [ここへ記述] 有楽町を代入する変数townと線を代入する変数lineを作成
         String town = "有楽町";
         String line = "線";
 
         // ⑥ ⑤で作成した変数を連結させた値を代入する変数 train を作成しなさい。
-           String train = town + "線";
+           String train = town + line;
         // ⑦ 変数plus, minus, multiply, remi, train をそれぞれ出力しなさい。
            System.out.println(plus);
            System.out.println(minus);
